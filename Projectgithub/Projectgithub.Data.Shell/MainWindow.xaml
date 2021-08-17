@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="10*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="Black">
+                <Button x:Name="Djaloul" Content="Djaloul" Margin="5" Click="Djaloul_OnClick"></Button>
+            </Grid>
+            <Grid Grid.Column="1" Background="Black">
+                <Button x:Name="Nedjmo" Content="Nedjmo" Margin="5" Click="Nedjmo_OnClick" ></Button>
+            </Grid>
+        </Grid>
+
+       
+            <StackPanel Grid.Row="1" Name="stacked"></StackPanel>
+
         
     </Grid>
 </Window>
