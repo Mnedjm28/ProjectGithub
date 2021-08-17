@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Projectgithub.Data.Bll;
 
 namespace Projectgithub.Data.Shell
 {
@@ -23,6 +24,8 @@ namespace Projectgithub.Data.Shell
         public MainWindow()
         {
             InitializeComponent();
+
+            SharedBll.Db = new AppDbContext(connectionString: "data source=(local);initial catalog=SyncDb;integrated security = True");
         }
     }
 }
