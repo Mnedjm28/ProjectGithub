@@ -25,7 +25,17 @@ namespace Projectgithub.Data.Shell
         {
             InitializeComponent();
 
-            SharedBll.Db = new AppDbContext(connectionString: "data source=(local);initial catalog=SyncDb;integrated security = True");
+            SharedBll.Db = new AppDbContext(connectionString: "data source=(local);initial catalog=TestDb;integrated security = True");
+        }
+
+        private void Djaloul_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Nedjmo_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
