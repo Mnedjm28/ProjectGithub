@@ -35,7 +35,9 @@ namespace Projectgithub.Data.Shell
 
         private void Nedjmo_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            ClientWithSelectControl clientWithSelectControl = new ClientWithSelectControl();
+            stacked.Children.Clear();
+            stacked.Children.Add(clientWithSelectControl);
         }
     }
 }
