@@ -30,7 +30,9 @@ namespace Projectgithub.Data.Shell
 
         private void Djaloul_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            stacked.Children.Clear();
+            ClientWithoutSelectControl clientWithoutSelectControl = new ClientWithoutSelectControl();
+            stacked.Children.Add(clientWithoutSelectControl);
         }
 
         private void Nedjmo_OnClick(object sender, RoutedEventArgs e)
