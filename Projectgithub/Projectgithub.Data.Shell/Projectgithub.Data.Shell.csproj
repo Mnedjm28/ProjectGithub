@@ -72,7 +72,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< changeVesion
     <Page Include="ClientWithoutSelectControl.xaml">
+=======
+    <Page Include="ClientWithSelectControl.xaml">
+>>>>>>> main
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -84,8 +88,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< changeVesion
     <Compile Include="ClientWithoutSelectControl.xaml.cs">
       <DependentUpon>ClientWithoutSelectControl.xaml</DependentUpon>
+=======
+    <Compile Include="ClientWithSelectControl.xaml.cs">
+      <DependentUpon>ClientWithSelectControl.xaml</DependentUpon>
+>>>>>>> main
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
